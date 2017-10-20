@@ -1,0 +1,18 @@
+<apex:component controller="FieloCMSGRS_GalleryAPI">
+	<apex:attribute name="config" type="SObject" description="" />
+	<apex:attribute name="renderCatalog" type="Boolean" description="" />
+	<apex:attribute name="appName" type="String" default="GRS_Storefront_App" description="" />
+
+	<div 
+		class="{!config['FieloCMS__ComponentLibrary__r']['FieloCMS__CSSClasses__c']} {!config['FieloCMS__CSSClasses__c']} cms-grs-gallery"
+		data-componentid="{! config['Id'] }" >
+		
+		<apex:canvasApp developerName="{!appName}" 
+	        width="100%"
+	        maxHeight="infinite"
+	        scrolling="no"
+	        rendered="true"
+	    />
+
+	</div>
+</apex:component>

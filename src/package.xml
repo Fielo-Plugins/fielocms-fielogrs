@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>FieloCMSGRS_Gallery</members>
+		<members>Widget1</members>
+		<name>ApexComponent</name>
+	</types>
+	<types>
+		<members>FieloCMSGRS_GalleryCtrl</members>
+		<members>FieloCMSGRS_GalleryAPI</members>
+		<name>ApexClass</name>
+	</types>
+	<version>36.0</version>
+</Package>
