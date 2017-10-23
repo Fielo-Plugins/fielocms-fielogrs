@@ -1,6 +1,5 @@
-<apex:component controller="FieloCMSGRS_GalleryAPI">
+<apex:component controller="FieloCMSGRS_GalleryCtrl">
 	<apex:attribute name="config" type="SObject" description="" />
-	<apex:attribute name="renderCatalog" type="Boolean" description="" />
 	<apex:attribute name="appName" type="String" default="GRS_Storefront_App" description="" />
 
 	<div 
@@ -11,7 +10,7 @@
 	        width="100%"
 	        maxHeight="infinite"
 	        scrolling="no"
-	        rendered="true"
+	        rendered="{!renderCatalog}"
 	    />
 
 	</div>
