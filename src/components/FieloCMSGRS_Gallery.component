@@ -1,6 +1,6 @@
-<apex:component controller="FieloCMSGRS_GalleryCtrl">
+<apex:component controller="FieloCMSGRS_GalleryCtrl" allowDML="true">
 	<apex:attribute name="config" type="SObject" description="" />
-	<apex:attribute name="appName" type="String" default="GRS_Storefront_App" description="" />
+	<apex:attribute name="appName" type="String" default="GRS_Storefront_App" description=""/>
 
 	<div 
 		class="{!config['FieloCMS__ComponentLibrary__r']['FieloCMS__CSSClasses__c']} {!config['FieloCMS__CSSClasses__c']} cms-grs-gallery"
