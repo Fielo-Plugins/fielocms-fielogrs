@@ -8,6 +8,7 @@
 	<types>
 		<members>FieloCMSGRS_GalleryCtrl</members>
 		<members>FieloCMSGRS_GalleryAPI</members>
+		<members>FieloCMSPLT_UserCreation</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
