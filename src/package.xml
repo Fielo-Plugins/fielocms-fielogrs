@@ -10,5 +10,9 @@
 		<members>FieloCMSGRS_GalleryAPI</members>
 		<name>ApexClass</name>
 	</types>
+	<types>
+		<members>FieloCMS__Component__c.FieloCMSGRS_ConnectedApp__c</members>
+		<name>CustomField</name>
+	</types>
 	<version>36.0</version>
 </Package>
