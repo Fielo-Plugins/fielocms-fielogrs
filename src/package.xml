@@ -14,5 +14,9 @@
 		<members>FieloCMS__Component__c.FieloCMSGRS_ConnectedApp__c</members>
 		<name>CustomField</name>
 	</types>
+	<types>
+		<members>FieloCms_Grs_Components</members>
+		<name>StaticResource</name>
+	</types>
 	<version>36.0</version>
 </Package>
