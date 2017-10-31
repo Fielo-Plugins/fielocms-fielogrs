@@ -1,0 +1,14 @@
+{
+			"type":"repository",
+			"version":"v1.0.0",
+			"dependencies":[
+				{
+					"type":"linkRepository",
+					"name":"Fielo-Connectors/fielogrs"
+				},
+				{
+					"type":"linkRepository",
+					"name":"Fielo-Plugins/fielocms-fieloplt"
+				}
+			]
+		}
